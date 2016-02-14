@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC90B7C81C6D8F760082DC41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90B7C71C6D8F760082DC41 /* AppDelegate.swift */; };
+		EC90B7CA1C6D8F760082DC41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90B7C91C6D8F760082DC41 /* ViewController.swift */; };
+		EC90B7CD1C6D8F760082DC41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC90B7CB1C6D8F760082DC41 /* Main.storyboard */; };
+		EC90B7CF1C6D8F770082DC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC90B7CE1C6D8F770082DC41 /* Assets.xcassets */; };
+		EC90B7D21C6D8F770082DC41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC90B7D01C6D8F770082DC41 /* LaunchScreen.storyboard */; };
+		EC90B7DD1C6D8F770082DC41 /* Car_Options_ColinMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90B7DC1C6D8F770082DC41 /* Car_Options_ColinMTests.swift */; };
+		EC90B7E81C6D8F770082DC41 /* Car_Options_ColinMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90B7E71C6D8F770082DC41 /* Car_Options_ColinMUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC90B7D91C6D8F770082DC41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC90B7BC1C6D8F760082DC41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC90B7C31C6D8F760082DC41;
+			remoteInfo = "Car Options ColinM";
+		};
+		EC90B7E41C6D8F770082DC41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC90B7BC1C6D8F760082DC41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC90B7C31C6D8F760082DC41;
+			remoteInfo = "Car Options ColinM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC90B7C41C6D8F760082DC41 /* Car Options ColinM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Options ColinM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC90B7C71C6D8F760082DC41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC90B7C91C6D8F760082DC41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC90B7CC1C6D8F760082DC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC90B7CE1C6D8F770082DC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC90B7D11C6D8F770082DC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC90B7D31C6D8F770082DC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC90B7D81C6D8F770082DC41 /* Car Options ColinMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Car Options ColinMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC90B7DC1C6D8F770082DC41 /* Car_Options_ColinMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_Options_ColinMTests.swift; sourceTree = "<group>"; };
+		EC90B7DE1C6D8F770082DC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC90B7E31C6D8F770082DC41 /* Car Options ColinMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Car Options ColinMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC90B7E71C6D8F770082DC41 /* Car_Options_ColinMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_Options_ColinMUITests.swift; sourceTree = "<group>"; };
+		EC90B7E91C6D8F770082DC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC90B7C11C6D8F760082DC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC90B7D51C6D8F770082DC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC90B7E01C6D8F770082DC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC90B7BB1C6D8F760082DC41 = {
+			isa = PBXGroup;
+			children = (
+				EC90B7C61C6D8F760082DC41 /* Car Options ColinM */,
+				EC90B7DB1C6D8F770082DC41 /* Car Options ColinMTests */,
+				EC90B7E61C6D8F770082DC41 /* Car Options ColinMUITests */,
+				EC90B7C51C6D8F760082DC41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC90B7C51C6D8F760082DC41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC90B7C41C6D8F760082DC41 /* Car Options ColinM.app */,
+				EC90B7D81C6D8F770082DC41 /* Car Options ColinMTests.xctest */,
+				EC90B7E31C6D8F770082DC41 /* Car Options ColinMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC90B7C61C6D8F760082DC41 /* Car Options ColinM */ = {
+			isa = PBXGroup;
+			children = (
+				EC90B7C71C6D8F760082DC41 /* AppDelegate.swift */,
+				EC90B7C91C6D8F760082DC41 /* ViewController.swift */,
+				EC90B7CB1C6D8F760082DC41 /* Main.storyboard */,
+				EC90B7CE1C6D8F770082DC41 /* Assets.xcassets */,
+				EC90B7D01C6D8F770082DC41 /* LaunchScreen.storyboard */,
+				EC90B7D31C6D8F770082DC41 /* Info.plist */,
+			);
+			path = "Car Options ColinM";
+			sourceTree = "<group>";
+		};
+		EC90B7DB1C6D8F770082DC41 /* Car Options ColinMTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC90B7DC1C6D8F770082DC41 /* Car_Options_ColinMTests.swift */,
+				EC90B7DE1C6D8F770082DC41 /* Info.plist */,
+			);
+			path = "Car Options ColinMTests";
+			sourceTree = "<group>";
+		};
+		EC90B7E61C6D8F770082DC41 /* Car Options ColinMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC90B7E71C6D8F770082DC41 /* Car_Options_ColinMUITests.swift */,
+				EC90B7E91C6D8F770082DC41 /* Info.plist */,
+			);
+			path = "Car Options ColinMUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC90B7C31C6D8F760082DC41 /* Car Options ColinM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC90B7EC1C6D8F770082DC41 /* Build configuration list for PBXNativeTarget "Car Options ColinM" */;
+			buildPhases = (
+				EC90B7C01C6D8F760082DC41 /* Sources */,
+				EC90B7C11C6D8F760082DC41 /* Frameworks */,
+				EC90B7C21C6D8F760082DC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Car Options ColinM";
+			productName = "Car Options ColinM";
+			productReference = EC90B7C41C6D8F760082DC41 /* Car Options ColinM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC90B7D71C6D8F770082DC41 /* Car Options ColinMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC90B7EF1C6D8F770082DC41 /* Build configuration list for PBXNativeTarget "Car Options ColinMTests" */;
+			buildPhases = (
+				EC90B7D41C6D8F770082DC41 /* Sources */,
+				EC90B7D51C6D8F770082DC41 /* Frameworks */,
+				EC90B7D61C6D8F770082DC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC90B7DA1C6D8F770082DC41 /* PBXTargetDependency */,
+			);
+			name = "Car Options ColinMTests";
+			productName = "Car Options ColinMTests";
+			productReference = EC90B7D81C6D8F770082DC41 /* Car Options ColinMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC90B7E21C6D8F770082DC41 /* Car Options ColinMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC90B7F21C6D8F770082DC41 /* Build configuration list for PBXNativeTarget "Car Options ColinMUITests" */;
+			buildPhases = (
+				EC90B7DF1C6D8F770082DC41 /* Sources */,
+				EC90B7E01C6D8F770082DC41 /* Frameworks */,
+				EC90B7E11C6D8F770082DC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC90B7E51C6D8F770082DC41 /* PBXTargetDependency */,
+			);
+			name = "Car Options ColinMUITests";
+			productName = "Car Options ColinMUITests";
+			productReference = EC90B7E31C6D8F770082DC41 /* Car Options ColinMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC90B7BC1C6D8F760082DC41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Colin McClatchey";
+				TargetAttributes = {
+					EC90B7C31C6D8F760082DC41 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EC90B7D71C6D8F770082DC41 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EC90B7C31C6D8F760082DC41;
+					};
+					EC90B7E21C6D8F770082DC41 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EC90B7C31C6D8F760082DC41;
+					};
+				};
+			};
+			buildConfigurationList = EC90B7BF1C6D8F760082DC41 /* Build configuration list for PBXProject "Car Options ColinM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC90B7BB1C6D8F760082DC41;
+			productRefGroup = EC90B7C51C6D8F760082DC41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC90B7C31C6D8F760082DC41 /* Car Options ColinM */,
+				EC90B7D71C6D8F770082DC41 /* Car Options ColinMTests */,
+				EC90B7E21C6D8F770082DC41 /* Car Options ColinMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC90B7C21C6D8F760082DC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC90B7D21C6D8F770082DC41 /* LaunchScreen.storyboard in Resources */,
+				EC90B7CF1C6D8F770082DC41 /* Assets.xcassets in Resources */,
+				EC90B7CD1C6D8F760082DC41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC90B7D61C6D8F770082DC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC90B7E11C6D8F770082DC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC90B7C01C6D8F760082DC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC90B7CA1C6D8F760082DC41 /* ViewController.swift in Sources */,
+				EC90B7C81C6D8F760082DC41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC90B7D41C6D8F770082DC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC90B7DD1C6D8F770082DC41 /* Car_Options_ColinMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC90B7DF1C6D8F770082DC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC90B7E81C6D8F770082DC41 /* Car_Options_ColinMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC90B7DA1C6D8F770082DC41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC90B7C31C6D8F760082DC41 /* Car Options ColinM */;
+			targetProxy = EC90B7D91C6D8F770082DC41 /* PBXContainerItemProxy */;
+		};
+		EC90B7E51C6D8F770082DC41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC90B7C31C6D8F760082DC41 /* Car Options ColinM */;
+			targetProxy = EC90B7E41C6D8F770082DC41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC90B7CB1C6D8F760082DC41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC90B7CC1C6D8F760082DC41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC90B7D01C6D8F770082DC41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC90B7D11C6D8F770082DC41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC90B7EA1C6D8F770082DC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC90B7EB1C6D8F770082DC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC90B7ED1C6D8F770082DC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Car Options ColinM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ColinM.Car-Options-ColinM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC90B7EE1C6D8F770082DC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Car Options ColinM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ColinM.Car-Options-ColinM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC90B7F01C6D8F770082DC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Car Options ColinMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ColinM.Car-Options-ColinMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Car Options ColinM.app/Car Options ColinM";
+			};
+			name = Debug;
+		};
+		EC90B7F11C6D8F770082DC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Car Options ColinMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ColinM.Car-Options-ColinMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Car Options ColinM.app/Car Options ColinM";
+			};
+			name = Release;
+		};
+		EC90B7F31C6D8F770082DC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Car Options ColinMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ColinM.Car-Options-ColinMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Car Options ColinM";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC90B7F41C6D8F770082DC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Car Options ColinMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ColinM.Car-Options-ColinMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Car Options ColinM";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC90B7BF1C6D8F760082DC41 /* Build configuration list for PBXProject "Car Options ColinM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC90B7EA1C6D8F770082DC41 /* Debug */,
+				EC90B7EB1C6D8F770082DC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC90B7EC1C6D8F770082DC41 /* Build configuration list for PBXNativeTarget "Car Options ColinM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC90B7ED1C6D8F770082DC41 /* Debug */,
+				EC90B7EE1C6D8F770082DC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC90B7EF1C6D8F770082DC41 /* Build configuration list for PBXNativeTarget "Car Options ColinMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC90B7F01C6D8F770082DC41 /* Debug */,
+				EC90B7F11C6D8F770082DC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC90B7F21C6D8F770082DC41 /* Build configuration list for PBXNativeTarget "Car Options ColinMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC90B7F31C6D8F770082DC41 /* Debug */,
+				EC90B7F41C6D8F770082DC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC90B7BC1C6D8F760082DC41 /* Project object */;
+}
